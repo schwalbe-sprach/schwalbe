@@ -43,9 +43,3 @@ preise["Butter"] = 1.49
 ```
 
 (GitHub seriously needs syntax highlighting for Schwalbe code...)
-
-## TODO
-
-- [ ] Parse code with an actual lexer
-- [ ] Use correct floating point separator, comma for life!
-- [ ] Very basic editor (Sublime?) extension for syntax highlighting
