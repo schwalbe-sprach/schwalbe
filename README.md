@@ -1,6 +1,6 @@
 # Schwalbe
 
-For a German version of this README, please refer to [README_DE.md]().
+For a German version of this README, please refer to [README_DE](https://github.com/kiliankoe/schwalbe/blob/master/README_DE.md).
 
 This is a transpiler from the Schwalbe programming language to Swift. Schwalbe carries _exactly_ the same syntax as Swift, only completely in German. So basically the tool found here is nothing more than a translator for a joke originating in the [SwiftDE Slack](http://slack.swiftde.net). Please don't actually use it 😄
 
