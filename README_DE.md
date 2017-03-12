@@ -2,7 +2,9 @@
 
 Dies ist ein Transpiler von der Programmiersprache Schwalbe zu Swift. Schwalbe und Swift teilen sich _exakt_ die selbe Syntax, nur ist Schwalbe komplett auf Deutsch. Demnach handelt es sich hier um nicht viel mehr als eine Art Übersetzer. Die Idee findet ihren Ursprung in einem Witz im [SwiftDE Slack](http://slack.swiftde.net). Bitte benutzt das hier nicht wirklich 😄
 
-Weil Schwalbe und Swift perfekt äquivalent sind was ihre Syntax angeht ist die aktuelle Implementation dieses Tools nicht besonders clever. Also eigentlich ganz im Gegenteil, es gibt keinerlei Überprüfung der Syntax und falsch geschriebene Syntaxelemente werden ignoriert. Das eigentliche Kompilieren erfolgt durch Swift und dort entstehende Fehler enthalten keine Schwalbe-Syntax.
+Weil Schwalbe und Swift perfekt äquivalent sind was ihre Syntax angeht ist die aktuelle Implementation dieses Tools nicht besonders clever. Also eigentlich ganz im Gegenteil, es gibt keinerlei Überprüfung der Syntax, falsch geschriebene Syntaxelemente werden ignoriert und alle möglicherweise auch selbst genutzten Syntaxelemente von Schwalbe werden gnadenlos ersetzt, also nutz' sie am besten nicht. Es wird keine Warnung ausgegeben.
+
+Das eigentliche Kompilieren erfolgt durch Swift und dort entstehende Fehler enthalten keine Hinweise auf Schwalbe.
 
 ## Nutzung
 
@@ -24,7 +26,7 @@ drucke("Hallo, Welt!")
 struktur Person {
 	lass name: Zeichenkette
 	lass alter: Ganzzahl
-	
+
 	funktion gibAus() {
 		drucke("Name: \(selbst.name), Alter: \(selbst.alter)")
 	}
