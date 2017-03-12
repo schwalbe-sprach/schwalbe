@@ -41,15 +41,15 @@ drucke("Hallo, Welt!")
 
 ```schwalbe
 struktur Person {
-	lass name: Zeichenkette
-	lass alter: Ganzzahl
+	sei name: Zeichenkette
+	sei alter: Ganzzahl
 
 	funktion gibAus() {
 		drucke("Name: \(selbst.name), Alter: \(selbst.alter)")
 	}
 }
 
-lass max = Person(name: "Max Mustermann", alter: 21)
+sei max = Person(name: "Max Mustermann", alter: 21)
 max.gibAus()
 ```
 

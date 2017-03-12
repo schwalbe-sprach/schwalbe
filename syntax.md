@@ -16,7 +16,7 @@ This is a complete list of all supported Swift keywords with their Schwalbe coun
 #selector           #selektor
 #sourceLocation
 Any                 Beliebig
-as                  wie
+as                  als
 associatedtype      assoziiertertyp
 associativity       assoziativität
 break               brichaus
@@ -52,7 +52,7 @@ internal            intern
 is                  ist
 lazy                faul
 left                links
-let                 lass
+let                 sei
 mutating            mutierend
 nil                 nix
 nonmutating         nichtmutierend
