@@ -18,6 +18,8 @@ WIP
 
 Here's some quick examples to get you up to speed with Schwalbe in your own projects.
 
+For a complete list of all supported keywords, check [syntax.md](https://github.com/kiliankoe/schwalbe/blob/master/syntax.md).
+
 ```schwalbe
 drucke("Hallo, Welt!")
 ```

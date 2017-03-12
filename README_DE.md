@@ -16,6 +16,8 @@ Folgt in Kürze.
 
 Ein paar kurze Beispiele um dich zur produktiven Nutzung von Schwalbe in eigenen Projekten vorzubereiten.
 
+Für eine komplette Liste aller unterstützten Syntaxelemente, siehe [syntax.md](https://github.com/kiliankoe/schwalbe/blob/master/syntax.md).
+
 ```schwalbe
 drucke("Hallo, Welt!")
 ```
