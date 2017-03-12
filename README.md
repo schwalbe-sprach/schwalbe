@@ -8,7 +8,21 @@ Since Schwalbe and Swift are perfectly equivalent regarding their syntax the cur
 
 ## Usage
 
-WIP
+If a single file is given, schwalbe will output it's translated content directly, enabling you to pipe it into a swift source file.
+
+```
+$ schwalbe beispiel.schwalbe > example.swift
+```
+
+For an input of multiple files schwalbe will create an output directory called `schwalbe_output` and copy all input files into this directory processing any file with a `.schwalbe` ending in the process. This enables you to translate an entire directory at once, since the directory structure is also kept as is.
+
+```
+$ schwalbe **/*
+
+# ⚙️ Processing example.schwalbe...
+# Writing schwalbe_output/example.swift
+# All done ✅
+```
 
 ## Installation
 

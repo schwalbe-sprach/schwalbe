@@ -6,7 +6,21 @@ Weil Schwalbe und Swift perfekt äquivalent sind was ihre Syntax angeht ist die 
 
 ## Nutzung
 
-Folgt in Kürze.
+Wenn eine einzelne Datei angegeben wird, gibt schwalbe den übersetzten Inhalt direkt aus, so dass man diesen direkt in eine Swift Datei pipen kann.
+
+```
+$ schwalbe beispiel.schwalbe > example.swift
+```
+
+Sollten mehrere Dateien angegeben werden, so erstellt schwalbe ein Verzeichnis mit dem Namen `schwalbe_output` und kopiert alle angegeben Dateien dorthin. Alle Dateien mit der Endung `.schwalbe` werden im Zuge dessen verarbeitet. Dadurch kann man auch direkt ganze Verzeichnisse verarbeiten, da die Verzeichnisstruktur beibehalten wird.
+
+```
+$ schwalbe **/*
+
+# ⚙️ Processing example.schwalbe...
+# Writing schwalbe_output/example.swift
+# All done ✅
+```
 
 ## Installation
 
