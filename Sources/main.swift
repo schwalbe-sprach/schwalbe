@@ -3,6 +3,13 @@ import PathKit
 
 let OUTPUT_DIR = "schwalbe_output"
 
+var writeToDir = false
+func printIfMult(_ str: String) {
+    if writeToDir {
+        print(str)
+    }
+}
+
 let inputFiles = CommandLine.arguments.dropFirst().filter { !$0.contains(OUTPUT_DIR) }
 guard inputFiles.count > 0 else {
     print("No input files")
@@ -12,33 +19,42 @@ guard inputFiles.filter({ $0.hasSuffix(".schwalbe") }).count > 0 else {
     print("Found no *.schwalbe files to process.")
     exit(0)
 }
+writeToDir = inputFiles.count > 1
 
-let outputPath = Path("./\(OUTPUT_DIR)")
-if outputPath.exists {
-    try! outputPath.delete() // FIXME: Workaround for `path.copy` below not wanting to overwrite.
+let outputDir = Path("./\(OUTPUT_DIR)")
+if writeToDir {
+    if outputDir.exists {
+        try! outputDir.delete() // FIXME: Workaround for `path.copy` below not wanting to overwrite.
+    }
+    try! outputDir.mkdir()
 }
-try! outputPath.mkdir()
-
 
 for filePath in inputFiles {
     let path = Path(filePath)
 
     guard path.string.hasSuffix(".schwalbe") else {
-        try? path.copy(outputPath + filePath)
+        if writeToDir {
+            try? path.copy(outputDir + filePath)
+        }
         continue
     }
 
-    print("⚙️  Processing \(path.abbreviate())...")
+    printIfMult("⚙️  Processing \(path.abbreviate())...")
     guard let schwalbe: String = try? path.read() else {
         print("Couldn't read \(path). Exiting.")
         exit(1)
     }
     let swift = translate(schwalbe)
 
-    let outFile = Path(path.string.replacingOccurrences(of: ".schwalbe", with: ".swift"))
-    let outPath = outputPath + outFile
-    print("Writing \(outPath.abbreviate())")
-    try? outPath.write(swift)
+    let fileOutputPath = outputDir + Path(path.string.replacingOccurrences(of: ".schwalbe", with: ".swift"))
+    printIfMult("Writing \(fileOutputPath.abbreviate())")
+
+    if writeToDir {
+        try? fileOutputPath.write(swift)
+    } else {
+        print(swift)
+    }
 }
 
-print("All done ✅")
+printIfMult("All done ✅")
+
