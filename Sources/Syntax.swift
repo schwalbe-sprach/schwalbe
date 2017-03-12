@@ -95,9 +95,12 @@ let syntax = [
 
     "Array": "Anordnung",
     "Bool": "Boolescherausdruck",
+    "Comparable": "Vergleichbar",
+    "CustomStringConvertible": "Zuzeichenketteumwandelbar",
     "Dictionary": "Zuordnung",
     "Double": "Fließkommazahl",
     "Error ": "Fehler ",
+    "Equatable": "Gleichsetzbar",
     "exit(": "beende(",
     "fatalError(": "fatalerFehler(",
     "Float": "Kurzefließkommazahl",

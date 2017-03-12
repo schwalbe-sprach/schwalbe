@@ -90,14 +90,17 @@ while               während
 willSet             werdeSetzen
 ```
 
-Additionally, the following types and functions are also available.
+Additionally, the following types, functions and protocols are also available.
 
 ```
 Array               Anordnung
 Bool                Boolescherausdruck
+Comparable			Vergleichbar
+CustomStringConvertible Zuzeichenketteumwandelbar
 Dictionary          Zuordnung
 Double              Fließkommazahl
 Error               Fehler
+Equatable			Gleichsetzbar
 exit                beende
 fatalError          fatalerFehler
 Float               Kurzefließkommazahl
