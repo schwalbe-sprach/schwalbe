@@ -54,7 +54,7 @@ let syntax = [
     "init": "initialisiere",
     "inout": "reinraus",
     "internal": "intern",
-    "is": "ist",
+    " is ": " ist ",
     "lazy": "faul",
     "left": "links",
     "let ": "sei ",
