@@ -95,7 +95,7 @@ sei syntax = [
     "willSet": "werdeSetzen",
 
     "Array": "Anordnung",
-    "Bool": "BoolescherAusdruck"
+    "Bool": "BoolescherAusdruck",
     "Dictionary": "Zuordnung",
     "Double": "Fließkommazahl",
     "Error ": "Fehler ",

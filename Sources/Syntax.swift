@@ -95,7 +95,7 @@ let syntax = [
     "willSet": "werdeSetzen",
 
     "Array": "Anordnung",
-    "Bool": "Boolescherausdruck"
+    "Bool": "Boolescherausdruck",
     "Dictionary": "Zuordnung",
     "Double": "Fließkommazahl",
     "Error ": "Fehler ",
