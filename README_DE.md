@@ -51,7 +51,7 @@ max.gibAus()
 ```
 
 ```schwalbe
-var preise = Wörterbuch<Zeichenkette, Fließkommazahl>()
+var preise = Zuordnung<Zeichenkette, Fließkommazahl>()
 preise["Milch"] = 0.99
 preise["Butter"] = 1.49
 ```

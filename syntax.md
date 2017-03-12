@@ -94,7 +94,7 @@ Additionally, the following types and functions are also available.
 
 ```
 Array               Anordnung
-Dictionary          Wörterbuch
+Dictionary          Zuordnung
 Double              Fließkommazahl
 Error               Fehler
 exit                beende

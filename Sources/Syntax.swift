@@ -93,7 +93,7 @@ let syntax = [
     "while ": "während ",
     "willSet ": "werdeSetzen ",
     "Array ": "Anordnung ",
-    "Dictionary ": "Wörterbuch ",
+    "Dictionary ": "Zuordnung ",
     "Double ": "Fließkommazahl ",
     "Error ": "Fehler ",
     "exit(": "beende(",
