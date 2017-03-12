@@ -9,6 +9,9 @@ func translate(_ input: String) -> String {
 }
 
 let syntax = [
+    "Array": "Anordnung",
+    "Dictionary": "Wörterbuch",
+    "Double": "Fließkommazahl",
     "func": "funktion",
     "Int": "Ganzzahl",
     "let": "lass",
