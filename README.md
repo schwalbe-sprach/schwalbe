@@ -14,7 +14,7 @@ If a single file is given, schwalbe will output it's translated content directly
 $ schwalbe beispiel.schwalbe > example.swift
 ```
 
-For an input of multiple files schwalbe will create an output directory called `schwalbe_output` and copy all input files into this directory processing any file with a `.schwalbe` ending in the process. This enables you to translate an entire directory at once, since the directory structure is also kept as is.
+For an input of multiple files schwalbe will create an output directory called `schwalbe_output` and copy all input files into this directory processing any file with a `.schwalbe` extension in the process. This enables you to translate an entire directory at once, since the directory structure is also kept as is.
 
 ```
 $ schwalbe **/*
