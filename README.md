@@ -26,7 +26,10 @@ $ schwalbe **/*
 
 ## Installation
 
-WIP
+```
+$ brew tap kiliankoe/formulae
+$ brew install schwalbe
+```
 
 ## Syntax Examples
 

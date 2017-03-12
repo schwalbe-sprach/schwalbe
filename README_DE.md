@@ -24,7 +24,10 @@ $ schwalbe **/*
 
 ## Installation
 
-Folgt in Kürze.
+```
+$ brew tap kiliankoe/formulae
+$ brew install schwalbe
+```
 
 ## Beispiele
 
