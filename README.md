@@ -35,6 +35,8 @@ Here's some quick examples to get you up to speed with Schwalbe in your own proj
 
 For a complete list of all supported keywords, check [syntax.md](https://github.com/kiliankoe/schwalbe/blob/master/syntax.md).
 
+For a slightly more extended example, have a look [here](https://github.com/kiliankoe/example-package-playingcard-schwalbe).
+
 ```schwalbe
 drucke("Hallo, Welt!")
 ```
