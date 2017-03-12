@@ -1,19 +1,19 @@
 import PathKit
 
 func translate(_ input: String) -> String {
-    var swift = input
-    for (schwalbeKeyword, swiftKeyword) in mapping {
-        swift = swift.replacingOccurrences(of: schwalbeKeyword, with: swiftKeyword)
+    var output = input
+    for (swift, schwalbe) in syntax {
+        output = output.replacingOccurrences(of: schwalbe, with: swift)
     }
-    return swift
+    return output
 }
 
-let mapping = [
-    "struktur": "struct",
-    "lass": "let",
-    "Zeichenkette": "String",
-    "Ganzzahl": "Int",
-    "funktion": "func",
-    "selbst": "self",
-    "drucke": "print",
+let syntax = [
+    "func": "funktion",
+    "Int": "Ganzzahl",
+    "let": "lass",
+    "print": "drucke",
+    "self": "selbst",
+    "String": "Zeichenkette",
+    "struct": "struktur",
 ]
