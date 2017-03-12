@@ -4,8 +4,6 @@ Dies ist ein Transpiler von der Programmiersprache Schwalbe zu Swift. Schwalbe u
 
 Weil Schwalbe und Swift perfekt äquivalent sind was ihre Syntax angeht ist die aktuelle Implementation dieses Tools nicht besonders clever. Also eigentlich ganz im Gegenteil, es gibt keinerlei Überprüfung der Syntax, falsch geschriebene Syntaxelemente werden ignoriert und alle möglicherweise auch selbst genutzten Syntaxelemente von Schwalbe werden gnadenlos ersetzt, also nutz' sie am besten nicht. Es wird keine Warnung ausgegeben.
 
-Das eigentliche Kompilieren erfolgt durch Swift und dort entstehende Fehler enthalten keine Hinweise auf Schwalbe.
-
 ## Nutzung
 
 Folgt in Kürze.

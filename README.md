@@ -6,8 +6,6 @@ This is a transpiler from the Schwalbe programming language to Swift. Schwalbe c
 
 Since Schwalbe and Swift are perfectly equivalent regarding their syntax the current implementation of this tool is not very clever. It's actually rather stupid, does no syntax checking whatsoever, will ignore misspelled keywords and replace any possible schwalbe keywords with their swift equivalent, so be sure not to use them, there will be no warning.
 
-The actual compiling to machine code is done by Swift and errors will not include Schwalbe syntax.
-
 ## Usage
 
 WIP
