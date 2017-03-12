@@ -25,7 +25,6 @@ let syntax = [
     "associatedtype": "assoziiertertyp",
     "associativity": "assoziativität",
     "break": "brichaus",
-    "case:": "fürdenfall:",
     "case ": "fürdenfall ",
     "catch": "fange",
     "class": "klasse",
