@@ -24,9 +24,9 @@ writeToDir = inputFiles.count > 1
 let outputDir = Path("./\(OUTPUT_DIR)")
 if writeToDir {
     if outputDir.exists {
-        try! outputDir.delete() // FIXME: Workaround for `path.copy` below not wanting to overwrite.
+        try? outputDir.delete() // FIXME: Workaround for `path.copy` below not wanting to overwrite.
     }
-    try! outputDir.mkdir()
+    try? outputDir.mkdir()
 }
 
 for filePath in inputFiles {
