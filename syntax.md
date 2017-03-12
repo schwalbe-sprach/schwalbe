@@ -94,12 +94,13 @@ Additionally, the following types and functions are also available.
 
 ```
 Array               Anordnung
+Bool                Boolescherausdruck
 Dictionary          Zuordnung
 Double              Fließkommazahl
 Error               Fehler
 exit                beende
 fatalError          fatalerFehler
-Float               KurzeFließkommazahl
+Float               Kurzefließkommazahl
 Int                 Ganzzahl
 print               drucke
 String              Zeichenkette
