@@ -1,4 +1,4 @@
-This is a complete list of all keywords supported Swift keywords with their Schwalbe counterpart. Sorted alphabetically for convenience.
+This is a complete list of all supported Swift keywords with their Schwalbe counterpart. Sorted alphabetically for convenience.
 
 ```
 func             funktion
