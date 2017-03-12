@@ -1,8 +1,8 @@
 import Foundation
 
-func print(_ message: Message, suppress: Bool = false) {
+func print(_ message: Message, suppress: Bool = false, usingLocale locale: Locale = .current) {
     if !suppress {
-        print(message.text())
+        print(message.text(with: locale))
     }
 }
 
