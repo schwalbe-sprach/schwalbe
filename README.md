@@ -4,7 +4,7 @@ For a German version of this README, please refer to [README_DE](https://github.
 
 This is a transpiler from the Schwalbe programming language to Swift. Schwalbe carries _exactly_ the same syntax as Swift, only completely in German. So basically the tool found here is nothing more than a translator based on a joke originating in the [SwiftDE Slack](http://slack.swiftde.net). Please don't actually use it 😄
 
-Since Schwalbe and Swift are perfectly equivalent regarding their syntax the current implementation of this tool is not very clever. It's actually rather stupid, does no syntax checking whatsoever, will ignore misspelled keywords and replace any possible schwalbe keywords with their swift equivalent, so be sure not to use them, there will be no warning.
+Since Schwalbe and Swift are perfectly equivalent regarding their syntax the current implementation of this tool is not very clever. It's actually rather stupid, does no syntax checking whatsoever, will ignore misspelled keywords and replace any possible schwalbe keywords with their swift equivalent (even inside strings 🙃), so be sure not to use them, there will be no warning.
 
 ## Usage
 
