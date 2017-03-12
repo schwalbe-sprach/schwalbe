@@ -1,6 +1,6 @@
 importiere Foundation
 
-funktion print(_ message: Message, suppress: Bool = falsch, usingLocale locale: Locale = .current) {
+funktion print(_ message: Message, suppress: Boolescherausdruck = falsch, usingLocale locale: Locale = .current) {
     falls !suppress {
         drucke(message.text(with: locale))
     }
