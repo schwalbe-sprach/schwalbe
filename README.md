@@ -29,6 +29,11 @@ $ brew tap kiliankoe/formulae
 $ brew install schwalbe
 ```
 
+If you're an [Atom](https://atom.io) user, here's a [package](https://github.com/kiliankoe/language-schwalbe) for you to enable syntax highlighting for Schwalbe code ✨
+```
+$ apm install language-schwalbe
+```
+
 ## Syntax Examples
 
 Here's some quick examples to get you up to speed with Schwalbe in your own projects.
