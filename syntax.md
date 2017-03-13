@@ -15,7 +15,6 @@ This is a complete list of all supported Swift keywords with their Schwalbe coun
 #line               #zeile
 #selector           #selektor
 #sourceLocation
-Any                 Beliebig
 as                  als
 associatedtype      assoziiertertyp
 associativity       assoziativität
@@ -93,6 +92,7 @@ willSet             werdeSetzen
 Additionally, the following types, functions and protocols are also available.
 
 ```
+Any                 Beliebig
 Array               Anordnung
 Bool                Boolescherausdruck
 Comparable			Vergleichbar

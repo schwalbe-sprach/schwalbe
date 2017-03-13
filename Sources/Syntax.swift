@@ -20,7 +20,6 @@ let syntax = [
     "#imageLiteral": "#bildLiteral",
     "#line": "#zeile",
     "#selector": "#selektor",
-    "Any": "Beliebig",
     " as": " als",
     "associatedtype": "assoziiertertyp",
     "associativity": "assoziativität",
@@ -93,6 +92,7 @@ let syntax = [
     "while": "während",
     "willSet": "werdeSetzen",
 
+    "Any": "Beliebig",
     "Array": "Anordnung",
     "Bool": "Boolescherausdruck",
     "Comparable": "Vergleichbar",
