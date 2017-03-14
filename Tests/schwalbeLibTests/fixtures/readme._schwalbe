@@ -1,0 +1,13 @@
+struktur Person {
+    sei name: Zeichenkette
+    sei alter: Ganzzahl
+
+    funktion gibAus() {
+        drucke("Name: \(selbst.name), Alter: \(selbst.alter)")
+    }
+}
+
+sei max = Person(name: "Max Mustermann", alter: 21)
+max.gibAus()
+
+var preise = Zuordnung<Zeichenkette, Fließkommazahl>()

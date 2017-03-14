@@ -1,0 +1,13 @@
+struct Person {
+    let name: String
+    let alter: Int
+
+    func gibAus() {
+        print("Name: \(self.name), Alter: \(self.alter)")
+    }
+}
+
+let max = Person(name: "Max Mustermann", alter: 21)
+max.gibAus()
+
+var preise = Dictionary<String, Double>()
