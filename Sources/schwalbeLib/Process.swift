@@ -47,7 +47,9 @@ public func process(input: [String]) throws {
         }
     }
 
-    print(Message.finished.text)
+    if multipleFiles {
+        print(Message.finished.text)
+    }
 }
 
 func process(file: String, writeToDir: Bool) throws {
@@ -67,6 +69,6 @@ func process(file: String, writeToDir: Bool) throws {
         print(Message.writing(fileOutPath.abbreviate().string).text)
         try fileOutPath.write(swiftSrc)
     } else {
-        print(swiftSrc)
+        print(swiftSrc, terminator: "")
     }
 }
