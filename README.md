@@ -2,7 +2,7 @@
 
 [![Travis](https://img.shields.io/travis/kiliankoe/schwalbe.svg?style=flat-square)](https://travis-ci.org/kiliankoe/schwalbe)
 
-<img style="float: right; width: 25%; padding-bottom: 10pt;" src="https://cloud.githubusercontent.com/assets/2625584/24072691/175da33a-0beb-11e7-9134-7a7dd7d07400.png">
+<!-- <img style="float: right; width: 25%; padding-bottom: 10pt;" src="https://cloud.githubusercontent.com/assets/2625584/24072691/175da33a-0beb-11e7-9134-7a7dd7d07400.png"> -->
 
 This is a transpiler from the Schwalbe programming language to Swift. Schwalbe carries _exactly_ the same syntax as Swift, only completely in German. So basically the tool found here is nothing more than a translator based on a joke originating in the [SwiftDE Slack](http://slack.swiftde.net). Please don't actually use it 😄
 
