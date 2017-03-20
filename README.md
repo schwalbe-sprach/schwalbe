@@ -70,4 +70,4 @@ preise["Milch"] = 0.99
 preise["Butter"] = 1.49
 ```
 
-(GitHub seriously needs syntax highlighting for Schwalbe code...)
+(GitHub seriously needs syntax highlighting for Schwalbe code... See #11)
