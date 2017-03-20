@@ -8,6 +8,10 @@ This is a transpiler from the Schwalbe programming language to Swift. Schwalbe c
 
 Since Schwalbe and Swift are perfectly equivalent regarding their syntax the current implementation of this tool is not very clever. It's actually rather stupid, does no syntax checking whatsoever, will ignore misspelled keywords and replace any possible schwalbe keywords with their swift equivalent (even inside strings and comments 🙃), so be sure not to use them, there will be no warning. But it's not like you're actually wanting to use this for something, right? 😅
 
+Why "Schwalbe"? Because I'm an idiot and thought a swift and a swallow are the same birds. And the german word for swallow is Schwalbe. Quoting [Wikipedia](https://en.wikipedia.org/wiki/Swift) on my mistake:
+
+> They are superficially similar to [swallows](https://en.wikipedia.org/wiki/Swallow), but are not closely related to any of the [passerine](https://en.wikipedia.org/wiki/Passerine) species.
+
 ## Usage
 
 If a single file is given, schwalbe will output it's translated content directly, enabling you to pipe it into a swift source file.
