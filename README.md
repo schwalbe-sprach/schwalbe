@@ -56,12 +56,12 @@ drucke("Hallo, Welt!")
 
 ```schwalbe
 struktur Person {
-	sei name: Zeichenkette
-	sei alter: Ganzzahl
+    sei name: Zeichenkette
+    sei alter: Ganzzahl
 
-	funktion gibAus() {
-		drucke("Name: \(selbst.name), Alter: \(selbst.alter)")
-	}
+    funktion gibAus() {
+        drucke("Name: \(selbst.name), Alter: \(selbst.alter)")
+    }
 }
 
 sei max = Person(name: "Max Mustermann", alter: 21)
