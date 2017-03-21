@@ -4,11 +4,11 @@
 
 <!-- <img style="float: right; width: 25%; padding-bottom: 10pt;" src="https://cloud.githubusercontent.com/assets/2625584/24072691/175da33a-0beb-11e7-9134-7a7dd7d07400.png"> -->
 
-This is a transpiler from the Schwalbe programming language to Swift. Schwalbe carries _exactly_ the same syntax as Swift, only completely in German. So basically the tool found here is nothing more than a translator based on a joke originating in the [SwiftDE Slack](http://slack.swiftde.net). Please don't actually use it 😄
+This is a transpiler from the Schwalbe programming language to Swift. Schwalbe carries _exactly_ the same syntax as Swift, only completely in German. So basically the tool found here is nothing more than a translator based on a serious discussion originating in the [SwiftDE Slack](http://slack.swiftde.net). Please don't actually use it ☝️!
 
-Since Schwalbe and Swift are perfectly equivalent regarding their syntax the current implementation of this tool is not very clever. It's actually rather stupid, does no syntax checking whatsoever, will ignore misspelled keywords and replace any possible schwalbe keywords with their swift equivalent (even inside strings and comments 🙃), so be sure not to use them, there will be no warning. But it's not like you're actually wanting to use this for something, right? 😅
+Since Schwalbe and Swift are perfectly equivalent regarding their syntax the current implementation of this tool is not very clever. It's actually rather stupid, does no syntax checking whatsoever, will ignore misspelled keywords and replace any possible schwalbe keywords with their swift equivalent (even inside strings and comments 👷), so be sure not to use them, there will be no warning. But it's not like you're actually wanting to use this for something, right? 🤔
 
-Why "Schwalbe"? Because I'm an idiot and thought a swift and a swallow are the same birds. And the german word for swallow is Schwalbe. Quoting [Wikipedia](https://en.wikipedia.org/wiki/Swift) on my mistake:
+Why "Schwalbe"? Because I'm an idiot and thought a swift and a swallow are the same birds. (The proper German translation of Swift would have been Mauersegler.) And the german word for swallow is Schwalbe. Quoting [Wikipedia](https://en.wikipedia.org/wiki/Swift) on my mistake:
 
 > They are superficially similar to [swallows](https://en.wikipedia.org/wiki/Swallow), but are not closely related to any of the [passerine](https://en.wikipedia.org/wiki/Passerine) species.
 
