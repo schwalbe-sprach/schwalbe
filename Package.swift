@@ -1,12 +1,14 @@
+// swift-tools-version:5.0
+
 import PackageDescription
 
 let package = Package(
     name: "schwalbe",
-    targets: [
-        Target(name: "schwalbe", dependencies: ["schwalbeLib"]),
-        Target(name: "schwalbeLib")
-    ],
     dependencies: [
-        .Package(url: "https://github.com/kylef/PathKit", majorVersion: 0, minor: 8)
+        .package(url: "https://github.com/kylef/PathKit", from: "0.8.0")
+    ],
+    targets: [
+        .target(name: "schwalbeLib", dependencies: ["PathKit"]),
+        .target(name: "schwalbe", dependencies: ["schwalbeLib"])
     ]
 )
